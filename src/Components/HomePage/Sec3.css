@@ -1,0 +1,63 @@
+.mainContainer-Sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Poppins', sans-serif;
+  
+    background-color: white;
+  }
+  
+  
+  .container-Sec3{
+    width: 150vh;
+    height: auto;
+    /* background-color:black ; */
+    color: black;
+    padding-top: 5%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .Sec3-box{
+    height: 60vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+  }
+
+  .Sec3-textBox{
+    height: 100%;
+    width: 40%;
+    background-color: palegoldenrod;
+  }
+
+  .Sec3-heading{
+    height: 65%;
+    width: 70%;
+    background-color: yellow;
+  }
+  #Sec3-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  #Sec3-heading-text{
+    font-size: 0.7rem;
+  }
+
+  .Sec3-btn{
+    height: 35%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+  }
+
+
+
+
+
+  .Sec3-imgBox{
+    height: 100%;
+    width: 60%;
+    /* background-color:red; */
+  }
