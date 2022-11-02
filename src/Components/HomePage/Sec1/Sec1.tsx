@@ -1,11 +1,11 @@
 import React from "react";
-import img1 from "../../imgg/persons1.png";
-import img2 from "../../imgg/persons2.png";
-import "./Homepage.css";
+import img1 from "../../../imgg/persons1.png";
+import img2 from "../../../imgg/persons2.png";
+import "./Sec1.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 
-const HomePage = () => {
+const Sec1 = () => {
   return (
     
     <div className="mainContainer">
@@ -82,4 +82,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Sec1;

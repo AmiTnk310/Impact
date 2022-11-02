@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sec2.css";
-import img1 from "../../imgg/aboutUs.png";
+import img1 from "../../../imgg/aboutUs.png";
 
 const Sec2 = () => {
   return (
