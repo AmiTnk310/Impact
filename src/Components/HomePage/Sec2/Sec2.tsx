@@ -11,7 +11,7 @@ const Sec2 = () => {
             <div className="sec2-heading">
               <p>Why You Should Choose Us</p>
             </div>
-           
+
             <div className="sub-text-box">
               <div className="sub-box-icon">icon</div>
               <div className="sub-box-text">
@@ -23,7 +23,7 @@ const Sec2 = () => {
                 </p>
               </div>
             </div>
-            
+
             <div className="sub-text-box">
               <div className="sub-box-icon">icon</div>
               <div className="sub-box-text">
