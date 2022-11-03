@@ -1,13 +1,14 @@
 import React from "react";
 import img1 from "../../../imgg/persons1.png";
 import img2 from "../../../imgg/persons2.png";
-import "./Sec1.css";
+import "./LetsGrow.css";
 import { FaLayerGroup } from "react-icons/fa";
 
+const LetsGrow = () => {
+  const GetInTouch = () => {
+    alert("Get in touch Btn Pressed!");
+  };
 
-
-
-const Sec1 = () => {
   return (
     <div className="mainContainer">
       <div className="container">
@@ -30,7 +31,9 @@ const Sec1 = () => {
               </span>
             </div>
             <div className="get-in-touch">
-              <button id="btn1">Get in Touch</button>
+              <button id="btn1" onClick={GetInTouch}>
+                Get in Touch
+              </button>
             </div>
           </div>
           <div className="grp-img">
@@ -42,8 +45,7 @@ const Sec1 = () => {
         <div className="bottom-box">
           <div className="box">
             <div className="box-icon">
-              <div id="sub-box-icon"><i className="fa-solid fa-layer-group" ></i></div>
-              
+              <i className="fa-solid fa-layer-group fa-2xl"></i>
             </div>
             <div className="box-details">
               <p>
@@ -58,7 +60,7 @@ const Sec1 = () => {
           </div>
           <div className="box">
             <div className="box-icon">
-              {/* <FontAwesomeIcon icon={["fas", "layer-group"]} /> */}
+              <i className="fa-solid fa-computer fa-2xl"></i>
             </div>
             <div className="box-details">
               <p>
@@ -73,7 +75,7 @@ const Sec1 = () => {
           </div>
           <div className="box">
             <div className="box-icon">
-              {/* <FontAwesomeIcon icon={["fas", "layer-group"]} /> */}
+              <i className="fa-solid fa-bags-shopping fa-2xl"></i>
             </div>
             <div className="box-details">
               <p>
@@ -92,4 +94,4 @@ const Sec1 = () => {
   );
 };
 
-export default Sec1;
+export default LetsGrow;

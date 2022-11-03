@@ -1,9 +1,13 @@
 import React from "react";
-import "./Sec3.css";
+import "./GrowingBuisness.css";
 import img from "../../../imgg/illustration.png";
+import LearnMoreBtn from "../../Buttons/LearnMoreBtn";
 
-const Sec3 = () => {
+const GrowingBuisness = () => {
   const vid = "https://www.youtube.com/embed/tgbNymZ7vqY";
+  const LearnBtnClick = () => {
+    alert("Learn More Btn Clicked");
+  };
 
   return (
     <div className="mainContainer-Sec3">
@@ -20,7 +24,8 @@ const Sec3 = () => {
               </span>
             </div>
             <div className="Sec3-btn">
-              <button id="Sec3-btn">Learn more</button>
+              <LearnMoreBtn text="Learn More" onClick={LearnBtnClick} />
+              {/* <button id="Sec3-btn">Learn more</button> */}
             </div>
           </div>
           <div className="Sec3-imgBox">
@@ -29,7 +34,11 @@ const Sec3 = () => {
         </div>
         <div className="Sec3-info">
           <div className="info-category">
-            <div className="info-category-icon">icon</div>
+            <div className="info-category-icon">
+              <div className="info-icon">
+                <i className="fa-solid fa-phone-volume fa-2xl"></i>
+              </div>
+            </div>
             <div className="info-category-text">
               <span id="info-category-heading">Professional</span> <br />
               <span id="info-text">
@@ -40,7 +49,11 @@ const Sec3 = () => {
             </div>
           </div>
           <div className="info-category">
-            <div className="info-category-icon">icon</div>
+            <div className="info-category-icon">
+              <div className="info-icon">
+                <i className="fa-solid fa-user-check fa-2xl"></i>
+              </div>
+            </div>
             <div className="info-category-text">
               <span id="info-category-heading">Good Review</span> <br />
               <span id="info-text">
@@ -51,7 +64,11 @@ const Sec3 = () => {
             </div>
           </div>
           <div className="info-category">
-            <div className="info-category-icon">icon</div>
+            <div className="info-category-icon">
+              <div className="info-icon">
+                <i className="fa-solid fa-headset fa-2xl"></i>
+              </div>
+            </div>
             <div className="info-category-text">
               <span id="info-category-heading">24/7 Support</span> <br />
               <span id="info-text">
@@ -99,7 +116,8 @@ const Sec3 = () => {
                   &nbsp; praesentium voluptatum, dolore
                 </li>
               </ul>
-              <button id="Sec3-btn">Learn More</button>
+              {/* <button id="Sec3-btn">Learn More</button> */}
+              <LearnMoreBtn text="Learn More" onClick={LearnBtnClick} />
             </div>
           </div>
         </div>
@@ -107,4 +125,4 @@ const Sec3 = () => {
     </div>
   );
 };
-export default Sec3;
+export default GrowingBuisness;

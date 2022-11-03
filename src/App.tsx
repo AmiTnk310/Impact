@@ -1,21 +1,22 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 import Header from "./Components/Header/Header";
-import Sec1 from "./Components/HomePage/Sec1/Sec1";
-import Sec2 from "./Components/HomePage/Sec2/Sec2";
-import Sec3 from "./Components/HomePage/Sec3/Sec3";
-import Sec4 from "./Components/HomePage/Sec4/Sec4";
-
+import LetsGrow from "./Components/HomePage/Lets Grow/LetsGrow";
+import WhyChooseUs from "./Components/HomePage/WhyChooseUs/WhyChooseUs";
+import GrowingBuisness from "./Components/HomePage/GrowingBuisness/GrowingBuisness";
+import Carousel from "./Components/HomePage/Carousel/Carousel";
+import BlogPost from "./Components/HomePage/BlogPost/BlogPost";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <Sec1 />
-      <Sec2 />
-      <Sec3 />
-      <Sec4 />
+      <LetsGrow />
+      <WhyChooseUs />
+      <GrowingBuisness />
+      <Carousel />
+      <BlogPost />
+      <Footer />
     </div>
   );
 }

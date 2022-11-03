@@ -1,8 +1,8 @@
 import React from "react";
-import "./Sec2.css";
+import "./WhyChooseUs.css";
 import img1 from "../../../imgg/aboutUs.png";
 
-const Sec2 = () => {
+const WhyChooseUs = () => {
   return (
     <div className="mainContainer-sec2">
       <div className="container-sec2">
@@ -13,7 +13,11 @@ const Sec2 = () => {
             </div>
 
             <div className="sub-text-box">
-              <div className="sub-box-icon">icon</div>
+              <div className="sub-box-icon">
+                <div className="sub-sub-box-icon">
+               {/*  */}
+                <i className="fa-solid fa-phone-volume fa-2xl"></i>                </div>
+                </div>
               <div className="sub-box-text">
                 <span id="sub-heading">Professional</span>
                 <p id="sub-text">
@@ -25,9 +29,13 @@ const Sec2 = () => {
             </div>
 
             <div className="sub-text-box">
-              <div className="sub-box-icon">icon</div>
+              <div className="sub-box-icon">
+              <div className="sub-sub-box-icon">
+              <i className="fa-solid fa-user-check fa-2xl"></i>
+              </div>
+              </div>
               <div className="sub-box-text">
-                <span id="sub-heading">Professional</span>
+                <span id="sub-heading">Good Review</span>
                 <p id="sub-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Corrupti nobis ut commodi, fugiat iusto sequi Lorem, ipsum
@@ -47,4 +55,4 @@ const Sec2 = () => {
     </div>
   );
 };
-export default Sec2;
+export default WhyChooseUs;

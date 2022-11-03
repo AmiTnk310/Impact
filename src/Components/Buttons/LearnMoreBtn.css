@@ -1,0 +1,11 @@
+#Learn-more-btn {
+    width: 8rem;
+    height: 6vh;
+    cursor: pointer;
+    background-color: rgb(248, 90, 64);
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+
+ 

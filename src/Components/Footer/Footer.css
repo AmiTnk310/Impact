@@ -1,0 +1,169 @@
+.mainContainer-Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+
+  }
+  
+  .container-Footer {
+    width: 75%;
+    height: 16rem;
+    /* background-color:black ; */
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Footer-details{
+    height: 75%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about{
+    width: 30%;
+    height: 70%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+ .about-heading{
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+
+ }
+ .about-heading span{
+    font-family: "Poppins", sans-serif;
+
+ }
+ .about-text{
+    width: 100%;
+    height: 30%;    
+    font-size: 0.65rem;
+    color: rgb(178, 175, 175);
+
+    /* font-weight: bold; */
+    /* background-color: rgb(129, 57, 49); */
+
+ }
+ .social-links{
+    width: 60%;
+    height: 30%;
+    font-weight: bold;
+    /* background-color: rgb(65, 51, 49); */
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .social-icons{
+    width: 16%;
+    height: 75%;
+    background-color: rgb(248,90,64);    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .social-icons:hover{
+  background-color: rgb(244, 139, 123);
+  transition: 0.5s;
+ }
+ .social-icons i{
+    color: white;
+ }
+
+
+
+
+
+
+  .links{
+    width: 58%;
+    height: 100%;
+    /* background-color: rgb(120, 87, 44); */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Website-links{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(24, 40, 40); */
+  }
+
+  .about-headings{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    /* background-color:sandybrown ; */
+    font-weight: bold;
+    /* font-size: 1.2rem; */
+  }
+  .about-headings span{
+    font-family: "Poppins", sans-serif;
+
+  }
+  .links-list{
+    width: 80%;
+    height: 100%;
+    /* background-color: aquamarine; */
+  }
+  .links-list #List{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    /* background-color: azure; */
+  }
+  .links-list #List a{
+  
+   text-decoration: none;
+   color: rgb(178, 175, 175);
+
+  }
+  .links-list #List li{
+            font-size: 0.6rem;
+            text-align: center;
+            
+  }
+
+
+
+
+
+
+
+
+
+
+  .copyright{
+    width: 100%;
+    height: 5%;
+    font-size: 0.8rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    color:rgb(178, 175, 175);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright a{
+    color: white;
+    text-decoration: none;
+  }
+

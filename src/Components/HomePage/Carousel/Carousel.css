@@ -1,0 +1,73 @@
+.mainContainer-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+
+  background-color: rgb(250, 250, 250);
+}
+
+.container-carousel {
+  width: 75%;
+  height: 25rem;
+  /* background-color:black ; */
+  color: black;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  display: flex;
+}
+
+.leftArrow {
+  width: 5%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+
+.main-carousel-box {
+  width: 90%;
+  height: 100%;
+  /* background-color: lightgreen; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-details {
+  width: 60%;
+  height: 70%;
+  /* background-color: rgba(128, 35, 35, 0.401); */
+}
+
+.carousel-indicator {
+  width: 60%;
+  height: 20%;
+  /* background-color: rgb(127, 127, 175); */
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.rightArrow {
+  width: 5%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+

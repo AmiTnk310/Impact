@@ -1,0 +1,149 @@
+.mainContainer-BlogPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  
+    /* background-color:rgb(139, 128, 128); */
+  }
+  
+  .container-BlogPost {
+    width: 75%;
+    height: 40rem;
+    /* background-color:black ; */
+    color: black;
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+
+  .BlogPost-heading{
+    height: 15%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #BlogPost-heading{
+    width: 55%;
+    font-size: 1.8rem;
+    text-align: center;
+    /* background-color: aqua; */
+  }
+  #Blogpost-text{
+    width: 55%;
+    font-size: 0.7rem;
+    color: rgb(118, 109, 109);
+    text-align: center;
+    /* background-color: aquamarine; */
+  }
+
+
+
+
+
+
+
+  .BlogPost-Links{
+    height: 75%;
+    width: 100%;
+    /* background-color: rgb(112, 112, 66); */
+    display: flex;
+    justify-content: space-between;
+  }
+  .BlogPost-Links-cards{
+    height: 95%;
+    width: 30%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+  }
+
+  .Blogpost-linkcard-image{
+    height: 55%;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .Blogpost-linkcard-image img{
+    width: 100%;
+    height: 95%;
+    border-radius: 7px;
+  }
+
+
+
+
+
+
+  .Blogpost-linkcard-date{
+    height: 5%;
+    width: 90%;
+    /* background-color: rgb(134, 167, 167); */
+    font-size: 0.7rem;
+    color: rgb(156,168,187);
+    font-family: "Montserrat", sans-serif;
+   
+
+  }
+
+  .Blogpost-linkcard-heading{
+    height: 7%;
+    width: 90%;
+    /* background-color: rgb(79, 200, 148); */
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .Blogpost-linkcard-heading a{
+  text-decoration: none;
+  color: black;
+}
+
+  .Blogpost-linkcard-text{
+    height: 15%;
+    width: 90%;
+    /* background-color: rgb(137, 158, 104); */
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 0.8rem;
+
+  }
+
+
+
+
+
+  .Blogpost-linkcard-link{
+    height: 5%;
+    width: 90%;
+    /* background-color: rgb(68, 74, 160); */
+    font-size: 0.8rem;
+    font-family: "Montserrat", sans-serif;
+
+
+  }
+  .Blogpost-linkcard-link a{
+    text-decoration: none;
+    color: rgb(248,90,64);
+    transition:1s;
+    text-align: center;
+  }
+  .Blogpost-linkcard-link a:hover{
+    text-decoration: none;
+    color:rgb(132, 15, 15);
+
+  }
+
+  
