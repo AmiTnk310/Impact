@@ -7,6 +7,7 @@ import Carousel from "./Components/HomePage/Carousel/Carousel";
 import BlogPost from "./Components/HomePage/BlogPost/BlogPost";
 import Footer from "./Components/Footer/Footer";
 
+
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <Carousel />
       <BlogPost />
       <Footer />
+    
     </div>
   );
 }

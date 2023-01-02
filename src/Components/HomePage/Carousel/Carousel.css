@@ -9,7 +9,7 @@
 
 .container-carousel {
   width: 75%;
-  height: 25rem;
+  height: 100%;
   /* background-color:black ; */
   color: black;
   padding-top: 5%;
@@ -43,20 +43,20 @@
 }
 .carousel-details {
   width: 60%;
-  height: 70%;
+  height: 100%;
   /* background-color: rgba(128, 35, 35, 0.401); */
 }
-
+/* 
 .carousel-indicator {
   width: 60%;
   height: 20%;
   /* background-color: rgb(127, 127, 175); */
-  color: grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-}
+  /* color: grey; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: 2rem; */
+/* } */ */
 
 .rightArrow {
   width: 5%;
@@ -70,4 +70,73 @@
   cursor: pointer;
 }
 
+.carousel-container{
+  /* background-color: rgb(101, 15, 15); */
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#myCarousel{
+  height: 100%;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .left{
+  background: none;
+  background: linear-gradient(yellow);
+} */
+
+.carousel-inner{
+  /* background-color: coral; */
+  height: 100%;
+}
+
+.item .active{
+  height: 100%;
+  /* background-color: aquamarine; */
+}
+.carousel-indicators {
+  /* background-color: pink;  */
+  width: 72%;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+}
+
+.carousel-indicators li {
+  background-color: rgb(173, 169, 169);
+  height: 0.7rem;
+  width: 0.7rem;
+  z-index: 0;
+}
+.carousel-indicators li:hover{
+  background-color: rgb(248,90,64);
+  transition: 0.3s;
+}
+.carousel-indicators .active{
+  background-color: rgb(248,90,64);
+  height: 0.7rem;
+  width: 0.7rem;
+  z-index: 0;
+}
+
+
+.carousel-control.left{
+  background:none;
+  color: black;
+  
+}
+
+.carousel-control.right{
+  background: none;
+}
+.glyphicon-chevron-right{
+  color: black;
+}

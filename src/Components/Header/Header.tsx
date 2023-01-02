@@ -19,8 +19,12 @@ const Header = () => {
                 <button className="dropbtn">Dropdown</button>
                 <div className="dropdown-content">
                   <a href="#">Menu 1</a>
-                  <a href="#">Menu 2</a>
-
+                  <a href="#" className="dropbtn">Menu 2</a>
+                          <div className="dropdown-content">
+                          <a href="#">sub- Menu 1</a>
+                          <a href="#">sub- Menu 2</a>
+                          <a href="#">sub- Menu 3</a>
+                          </div>
                   <a href="#">Menu 3</a>
                 </div>
               </li>

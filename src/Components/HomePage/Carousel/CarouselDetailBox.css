@@ -1,23 +1,25 @@
 .carousel-cards {
-  height: auto;
+  height: 48vh;
   width: 100%;
   /* background-color: aquamarine; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .img-card {
-  width: 12rem;
-  height: 9rem;
+  width: 50%;
+  height: 45%;
   /* background-color: yellow; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
 }
 .imgBox {
-  width: 4rem;
-  height: 4rem;
+  width: 15%;
+  height: auto;
   /* background-color: green; */
   border: 5px solid white;
   border-radius: 50%;
@@ -37,12 +39,12 @@
 }
 
 .nameBox {
-  width: 10rem;
-  height: 3rem;
+  width: 20%;
+  height: auto;
   /* background-color: lime; */
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,13 +58,22 @@
 }
 
 .text-card {
-  width: 35rem;
-  height: 8rem;
-  /* background-color: rgb(227, 227, 124); */
+  width: 50%;
+  height: 45%;
+  /* background-color: rgb(227, 227, 124);  */
   font-family: "Metal", cursive;
-  font-size: 1.2rem;
-  display: flex;
-
-  align-items: flex-start;
+  font-size: 1.7rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-start; */
+ 
+}
+#text-card-text{
+  height: 100%;
+  width: 100%;
+  /* background-color: brown; */
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

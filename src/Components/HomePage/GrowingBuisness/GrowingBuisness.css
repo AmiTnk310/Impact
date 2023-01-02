@@ -69,6 +69,10 @@
   width: 60%;
   /* background-color:red; */
 }
+.Sec3-imgBox img{
+  height: 100%;
+  width: 100%;
+}
 
 .Sec3-info {
   width: 100%;

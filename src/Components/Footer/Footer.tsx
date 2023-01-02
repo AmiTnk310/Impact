@@ -87,7 +87,7 @@ const Footer =()=>{
                 </div>
             </div>
             <div className="copyright">
-                    Copyright ©2022. All Rights Reserved. — Designed with love by  
+                    Copyright ©2023. All Rights Reserved. — Designed with love by  
                     <a href="#">&nbsp; Untree.co</a>
             </div>
            

@@ -21,6 +21,7 @@ const BlogPost = () => {
             <div className="BlogPost-Links">
                 <div className="BlogPost-Links-cards">
                     <div className="Blogpost-linkcard-image">
+                    
                            <a href="#"> <img src={post_1} alt=""/></a>
                     </div>
                     <div className="Blogpost-linkcard-date">
